@@ -7,10 +7,10 @@ while True:
     try:
         num = raw_input("Enter a number: ")
         if num == 'done':
-            break;
+            break
         n = int(num)
-        largest = num if largest < num or largest == None else largest
-        smallest = num if smallest > num or smallest == None else smallest
+        largest = num if largest >num or largest == None else largest
+        smallest = num if smallest < num or smallest == None else smallest
     except:
         print "Invalid input"
 

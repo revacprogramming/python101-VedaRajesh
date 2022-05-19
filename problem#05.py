@@ -1,9 +1,10 @@
+
 # Functions
-
-
 def computepay(h,r):
     if h > 40:
-        p = 1.5 * r * (h - 40) + (40 *r)
+        otp = (1.5 * r) * (h - 40) 
+        reg=r*h
+        v=otp+reg
     else:
         p = h * r
     return p
@@ -15,3 +16,6 @@ rphr = float(rphrs)
 
 p = computepay(hr,rphr)
 print(p)
+
+
+
