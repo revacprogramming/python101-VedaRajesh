@@ -1,4 +1,4 @@
-# program to swap two numbers
+# python program to swap two numbers
 a=22
 b=32
 print("numbers before swapping")
@@ -11,4 +11,3 @@ b=temp
 print("numbers after swapping")
 print("a is",a)
 print("b is ",b)
-
