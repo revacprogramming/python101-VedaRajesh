@@ -1,5 +1,6 @@
 
 # Functions
+
 def computepay(h,r):
     if h > 40:
         otp = (1.5 * r) * (h - 40) 
@@ -8,14 +9,19 @@ def computepay(h,r):
     else:
         p = h * r
     return p
-    
-hrs = input("Enter Hours:")
-hr = float(hrs)
-rphrs = input("Enter rate per hour:")
-rphr = float(rphrs)
+def input():
+    hrs = input("Enter Hours:")
+    hr = float(hrs)
+    rphrs = input("Enter rate per hour:")
+    rphr = float(rphrs)
+def output():
+    p = computepay(hr,rphr)
+    print(p)
+def main()
+    computepay(h,r)
+    input()
+    output()
 
-p = computepay(hr,rphr)
-print(p)
-
+main()
 
 
